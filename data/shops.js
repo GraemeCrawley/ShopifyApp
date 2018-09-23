@@ -18,12 +18,7 @@ const Shops = [
 			  	],
 	"Orders":
 				[
-					{"Order_ID":"Kc6XKnTl8ctkhcOX3GOJ"},
-					{"Order_ID":"qkzgp1ZdgNAyQGAyy72v"},
-					{"Order_ID":"AAIPJcSEDIarnuX1lnvZ"},
-					{"Order_ID":"mAlVU5hIyvOzBAPMDbRY"},
-					{"Order_ID":"48EEv0h7r2FJPIMPtXuI"},
-					{"Order_ID":"dthvT1WamhaHYpsa1OSS"}
+					{"Order_ID":"Kc6XKnTl8ctkhcOX3GOJ"}
 				]
   },
   {
@@ -54,12 +49,7 @@ const Shops = [
 			  	],
 	"Orders":
 				[
-					{"Order_ID":"ud7HwZzmQNEqTfo8vzfS"},
-					{"Order_ID":"zfDBTpWIemX7FK9lWRt5"},
-					{"Order_ID":"GJN3Ifnel3Mo0zkpSY12"},
-					{"Order_ID":"7fH211P2UuhlrVbSuRkn"},
-					{"Order_ID":"06PdWuDAwPAD64Xftd2h"},
-					{"Order_ID":"vbuhCgMqWGGLVmTGhn1v"}
+					{"Order_ID":"ud7HwZzmQNEqTfo8vzfS"}
 				]
   },
   {
@@ -85,12 +75,7 @@ const Shops = [
 			  	],
 	"Orders":
 				[
-					{"Order_ID":"AeoB9bxqzs4YD7UWjGbn"},
-					{"Order_ID":"KDLFc39bkWCKTrawUnZj"},
-					{"Order_ID":"p3hsqKZh2zMqg2WA2MvU"},
-					{"Order_ID":"1MUhfWzpZvZm1P0OiDNQ"},
-					{"Order_ID":"V9vqGsMNDrTuYNAhrsMx"},
-					{"Order_ID":"6lf2NExcmIpJw1AhIW7i"}
+					{"Order_ID":"AeoB9bxqzs4YD7UWjGbn"}
 				]
   },
   {
@@ -120,12 +105,7 @@ const Shops = [
 			  	],
 	"Orders":
 				[
-					{"Order_ID":"2VvqZQOWkIhRTVQaA37G"},
-					{"Order_ID":"j6BRHrVApJC8lrzlVPSQ"},
-					{"Order_ID":"f8JZC1epf3pokSx7SOm1"},
-					{"Order_ID":"hPb431Kq5q7zxtHhBtar"},
-					{"Order_ID":"jt0QoV44VQfGmZdnAMY4"},
-					{"Order_ID":"k8aXXIVF5OV8jp5c0zCG"}
+					{"Order_ID":"2VvqZQOWkIhRTVQaA37G"}
 				]
   },
   {
@@ -166,12 +146,7 @@ const Shops = [
 			  	],
 	"Orders":
 				[
-					{"Order_ID":"gu6VLsRz7msGBjITLwig"},
-					{"Order_ID":"mvDwiimNMm31ao64YgJ1"},
-					{"Order_ID":"hXx87IfaRoOlyXpSMyDv"},
-					{"Order_ID":"9gx6ptmXj8r2eolSBsbg"},
-					{"Order_ID":"K9W9GDLARSj3gV0wis3v"},
-					{"Order_ID":"md0YP1J0hz17eBr5aL4K"}
+					{"Order_ID":"gu6VLsRz7msGBjITLwig"}
 				]
   }
 ];
