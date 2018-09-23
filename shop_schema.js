@@ -110,12 +110,18 @@ const OrderType = new GraphQLObjectType({
     Order_Total: {
       type: new GraphQLNonNull(GraphQLFloat),
       resolve: function(order) {
-        o_line_item_ids = _.map(order.Line_Items, l => l.Line_Item_ID);
-        // console.log(o_line_item_ids);
-        line_item_details = _.filter(Line_Items, i => o_line_item_ids.includes(i.ID));
-        // console.log(line_item_details);
-        console.log(_.map(line_item_details, p => p.Line_Total));
-        return _.map(line_item_details, p => p.Line_Total).reduce((a, b) => a + b, 0);
+      totals = _.map(
+        order.Line_Items, l => 
+        _.find(Line_Items, i => 
+        l.Line_Item_ID == i.ID
+        )
+        .Quantity * 
+        _.find(Products, a => 
+        _.find(a.Line_Items, b => 
+        b.Line_Item_ID == l.Line_Item_ID)).Price
+        );
+      console.log(totals);
+      return totals.reduce((a, b) => a + b, 0);
       }
     }
   })
