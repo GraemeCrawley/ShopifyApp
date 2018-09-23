@@ -133,11 +133,11 @@ const LineItemType = new GraphQLObjectType({
   description: "This represents a line item",
   fields: () => ({
     ID: {type: new GraphQLNonNull(GraphQLString)},
-    Associated_Products: {
-      type: new GraphQLList(LineItemType),
+    Associated_Product: {
+      type: ProductType,
       resolve: function(p_line_item) {
-        p_line_item_ids = _.map(p_line_item, l => l.ID);
-        return _.filter(Products, p => p_line_item_ids.includes(p.ID));
+        line_id = p_line_item.ID;
+        return _.find(Products, a => _.find(a.Line_Items, b => b.Line_Item_ID == line_id));
       }
     },
     Quantity: {type: new GraphQLNonNull(GraphQLFloat)},
